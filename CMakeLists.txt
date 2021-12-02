@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22.0)
+cmake_minimum_required(VERSION 3.18.4)
 project(CringeMessenger)
 
 set(CMAKE_CXX_STANDARD 20)
