@@ -1,10 +1,13 @@
 # CringeMessenger
 P2P Messenger
+# Prepare to build.
+To build CringeMessenger, you need some dependencies and build tools.
 
-To build CringeMessenger, you need some dependencies.
-`glfw3`, `Boost`, `OpenSSL` and `OpenGL 3.3 core` supported video card.
+Build tools: `Make`, `CMake v3.22.0 or higher`
 
-How to Build?
+Dependencies: `glfw3`, `Boost`, `OpenSSL` and `OpenGL 3.3 core` supported video card.
+
+# How to Build?
 
 To build CringeMessenger, you need to follow a few steps.
 
