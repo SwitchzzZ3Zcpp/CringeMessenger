@@ -1,0 +1,27 @@
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: prepeare
+      run:  mkdir build; cd build
+    - name: cmake
+      run: cmake ..
+    - name: make
+      run: make
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
+    - name: cleanup
+      run: rm -rf build
