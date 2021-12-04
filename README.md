@@ -9,12 +9,6 @@ Dependencies: `glfw3`, `Boost`, `OpenSSL` and `OpenGL 3.3` core supported video 
 
 # How to Build?
 
-To build CringeMessenger, you need to follow a few steps.
+To build CringeMessenger, you need to run a script `build.sh`.
 
-`mkdir build`
-
-`cd build`
-
-`cmake ..`
-
-`make -j$(nproc)`
+Run a script with `--run` flag, and CringeMessenger will automaticlly start after build!
