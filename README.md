@@ -1,4 +1,3 @@
-[![build](https://github.com/sevgajuk/CringeMessenger/actions/workflows/build.yml/badge.svg)](https://github.com/sevgajuk/CringeMessenger/actions/workflows/build.yml)
 # CringeMessenger
 P2P Messenger
 # Prepare to build.
